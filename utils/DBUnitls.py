@@ -4,7 +4,7 @@ class DBHelper:
     #创建一个连接
     @staticmethod  # 静态方法
     def __createConnection():
-        con=pymysql.connect(host="sh-cynosdbmysql-grp-4y65np2q.sql.tencentcdb.com",port=22505,user="ytc",password="Yan20010703",db="project",charset="utf8")
+        con=pymysql.connect(host="xxx",port=xxx,user="xxx",password="xxx",db="xxx",charset="utf8")
         return con
 
     # 执行单向操作：添，删，改
